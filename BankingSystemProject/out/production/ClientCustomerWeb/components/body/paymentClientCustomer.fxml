@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fx:id="Scroll" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minViewportHeight="700.0" minViewportWidth="1100.0" prefViewportHeight="700.0" prefViewportWidth="1100.0" styleClass="component" stylesheets="@../appLightMode.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="components.body.paymentControllerClientCustomer">
+   <content>
+      <GridPane alignment="CENTER" styleClass="component">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="135.33334350585938" minWidth="10.0" prefWidth="41.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="628.0" minWidth="10.0" prefWidth="608.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="277.66668701171875" minWidth="0.0" prefWidth="29.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="378.0" minWidth="10.0" prefWidth="378.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="151.0" minWidth="10.0" prefWidth="32.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="130.0" minHeight="10.0" prefHeight="125.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="111.0" minHeight="0.0" prefHeight="38.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="220.66668701171875" minHeight="10.0" prefHeight="208.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="209.0" minHeight="0.0" prefHeight="45.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="287.3333435058594" minHeight="10.0" prefHeight="183.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="111.33334350585938" minHeight="10.0" prefHeight="21.999969482421875" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="111.33334350585938" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ListView fx:id="NotificationArea" prefHeight="502.0" prefWidth="348.0" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="3" />
+            <Label prefHeight="28.0" prefWidth="233.0" text="Payment controls:" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="216.0" text="Loaner loans table:" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <AnchorPane styleClass="component" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <TableView fx:id="LoanerLoansTable" prefHeight="221.0" prefWidth="477.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="checkBoxChoice" prefWidth="75.0" styleClass="tableLabel" text="Choice" />
+                        <TableColumn fx:id="LoanIdLoaner" prefWidth="75.0" styleClass="tableLabel" text="Loan ID" />
+                        <TableColumn fx:id="StatusLoaner" prefWidth="75.0" styleClass="tableLabel" text="Status" />
+                        <TableColumn fx:id="debtID" prefWidth="75.0" styleClass="tableLabel" text="Debt" />
+                        <TableColumn fx:id="TotalYazLoaner" prefWidth="100.0" styleClass="tableLabel" text="Yaz payment" />
+                        <TableColumn fx:id="PayEveryLoaner" prefWidth="88.0" styleClass="tableLabel" text="Pay every yaz" />
+                        <TableColumn fx:id="amountEveryPulseLoaner" prefWidth="73.0" styleClass="tableLabel" text="Total money per pulse" />
+                        <TableColumn fx:id="totalAmountLoaner" prefWidth="101.0" styleClass="tableLabel" text="Total money left" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <VBox id="component" styleClass="component" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <HBox id="component" prefHeight="61.0" prefWidth="572.0" spacing="26.0" styleClass="component">
+                     <children>
+                        <Button fx:id="ButtonPayAll" disable="true" mnemonicParsing="false" onAction="#clickPayAll" text="Close the loan" />
+                        <Button fx:id="ButtonPayPulse" disable="true" mnemonicParsing="false" onAction="#clickPayOnePulse" text="Pay to loan by pulse" />
+                        <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clickClearButton" text="Clear choice" />
+                        <Button fx:id="refreshButtton" mnemonicParsing="false" text="Refresh Loans" />
+                     </children>
+                  </HBox>
+                  <HBox id="component" prefHeight="26.0" prefWidth="432.0" spacing="8.0" styleClass="component">
+                     <children>
+                        <Label prefHeight="31.0" prefWidth="301.0" text="Please enter amount to pay if loan is risk:" />
+                        <TextField fx:id="amountPayText" disable="true" prefHeight="31.0" prefWidth="176.0" />
+                        <Button fx:id="ConveyMoneyOnRiskButton" disable="true" mnemonicParsing="false" onAction="#ConveyMoneyOnRisk" text="OK" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Label id="header" prefHeight="47.0" prefWidth="198.0" styleClass="header" text="Pay Loans" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>

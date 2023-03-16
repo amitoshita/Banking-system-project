@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: main.mainAdmin
+Class-Path: controlsfx-8.40.14.jar okio-2.8.0.jar gson-2.8.8.jar annotat
+ ions-13.0.jar kotlin-stdlib-1.4.10.jar okhttp-4.9.1.jar
+

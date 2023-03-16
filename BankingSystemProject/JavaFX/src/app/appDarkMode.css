@@ -1,0 +1,128 @@
+.component{
+    -fx-background-color: #616d73;
+}
+
+.scroll-bar:horizontal .thumb{
+    -fx-background-color: #616d73;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #616d73;
+}
+
+.moneyPic{
+    -fx-image : url(/Images/pay2.png);
+}
+
+#header{
+    -fx-font-size: 20px;
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+#hboxYaz{
+    -fx-border-color: WHITE;
+    -fx-border-radius: 20px;
+}
+
+.logo {
+    -fx-image : url(/Images/2.png);
+}
+
+
+.check-box{
+    -fx-font-size: 16px;
+    -fx-text-fill: WHITE;
+}
+
+
+.colum-header-background{
+    -fx-padding: 0 0 10 0;
+}
+
+.table-view{
+    -fx-background-radius: 20;
+    -fx-fill: BLACK;
+    -fx-color: WHITE;
+    -fx-font-family: "Maiandra GD";
+    -fx-font-size: 14px;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #616d73;
+}
+
+
+.table-row-cell:odd{
+    -fx-background-color: #c9c8c8;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #ffffff;
+}
+
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Maiandra GD";
+}
+
+#loadedFileLabel{
+    -fx-font-size: 10px;
+    -fx-font-family: "Maiandra GD";
+    -fx-text-fill: WHITE;
+}
+
+.combobox {
+    -fx-font-size: 12px;
+    -fx-font-family: "Segoe UI Black";
+    -fx-border-radius: 20px;
+    -fx-border-color: WHITE;
+    -fx-text-fill: WHITE;
+    -fx-font-weight: normal;
+    -fx-font-size: 16px;
+    -fx-background-color: #616d73;
+}
+
+.button {
+    -fx-border-radius: 20px;
+    -fx-border-color:White;
+    -fx-padding: 6px;
+    -fx-text-fill: White;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: normal;
+    -fx-font-size: 16px;
+    -fx-background-color: #616d73;
+
+
+}
+
+
+.button:hover{
+    -fx-border-radius: 20px;
+    -fx-padding: 6px;
+
+    -fx-font-family: "Segoe UI Black";
+    -fx-border-color: #ffffff;
+    -fx-text-fill: #616d73;
+    -fx-background-color: White;
+
+}
+
+.scroll-pane {
+    -fx-background-insets: 1;
+    -fx-padding: 0;
+
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+

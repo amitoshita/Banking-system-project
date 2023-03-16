@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<ScrollPane fx:id="scrumbleS" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="component" stylesheets="@../appLightMode.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="components.body.scrumbleControllerClientCustomer">
+   <content>
+      <GridPane alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" styleClass="component">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="8.0" prefWidth="21.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="431.0" minWidth="10.0" prefWidth="418.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="164.0" minWidth="10.0" prefWidth="90.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="164.0" minWidth="10.0" prefWidth="18.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="506.0" minWidth="10.0" prefWidth="506.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="118.0" minWidth="10.0" prefWidth="25.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="139.0" minHeight="10.0" prefHeight="139.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="599.0" minHeight="10.0" prefHeight="413.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="230.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox id="component" prefHeight="30.0" prefWidth="299.0" GridPane.columnIndex="1" />
+            <TableView fx:id="table" disable="true" prefHeight="547.0" prefWidth="406.0" GridPane.columnIndex="4" GridPane.rowIndex="1" GridPane.rowSpan="2">
+               <columns>
+                  <TableColumn fx:id="choiceID" prefWidth="47.0" text="Choice" />
+                  <TableColumn fx:id="IdLoan" prefWidth="47.0" text="loan ID" />
+                  <TableColumn fx:id="loanOwner" prefWidth="73.0" text="Loan owner" />
+                  <TableColumn fx:id="category" prefWidth="63.0" text="Category" />
+                  <TableColumn fx:id="loanAmount" prefWidth="59.0" text="Amount" />
+                  <TableColumn fx:id="totalYazTime" prefWidth="63.1212158203125" text="Total yaz" />
+                  <TableColumn fx:id="paysEveryYaz" minWidth="0.0" prefWidth="0.0" text="Pay every yaz" />
+                  <TableColumn fx:id="interest" prefWidth="62.0" text="Interest" />
+                  <TableColumn fx:id="loanStatus" prefWidth="59.66668701171875" text="Status" />
+                  <TableColumn fx:id="totalFund" prefWidth="91.3333740234375" text="Money raised" />
+                  <TableColumn fx:id="fundLeft" prefWidth="86.6666259765625" text="Money left" />
+                  <TableColumn fx:id="startActiveYaz" prefWidth="86.6666259765625" text="Begining yaz" />
+                  <TableColumn fx:id="endingYaz" prefWidth="73.0" text="Ending yaz" />
+               </columns>
+            </TableView>
+            <Button fx:id="finishedButton" centerShape="false" contentDisplay="RIGHT" disable="true" mnemonicParsing="false" onAction="#FinishListner" prefHeight="37.0" prefWidth="512.0" text="Finish" textAlignment="JUSTIFY" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <AnchorPane id="component" prefHeight="629.0" prefWidth="508.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowSpan="3">
+               <children>
+                  <Label fx:id="test" layoutX="24.0" layoutY="332.0" prefHeight="38.0" prefWidth="383.0" text="Please enter the amount">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="header" layoutX="14.0" layoutY="14.0" prefHeight="45.0" prefWidth="217.0" styleClass="header" text="Scrumble loans">
+                     <font>
+                        <Font name="Arial Black" size="24.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="0.7111111595517113" endY="1.0" startX="0.734920634920635" startY="0.19682537260509672">
+                           <stops>
+                              <Stop color="#261cb8" />
+                              <Stop color="#1cabb8" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <VBox id="component" layoutX="24.0" layoutY="111.0" prefHeight="208.0" prefWidth="246.0" spacing="20.0" styleClass="component">
+                     <children>
+                        <CheckBox fx:id="CBcategoriesID" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#CBCategoriesListener" prefHeight="0.0" prefWidth="105.0" text="Categories">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="CBinterestID" mnemonicParsing="false" onAction="#CBinterestListener" prefHeight="0.0" prefWidth="155.0" text="Minimum interest">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="CByazID" mnemonicParsing="false" onAction="#CByazListener" prefHeight="0.0" prefWidth="161.0" text="Minimum total yaz">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="CBmaxLoansID" mnemonicParsing="false" onAction="#CBmaxLoansListener" prefHeight="2.0" prefWidth="217.0" text="Maximum loans per owner">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox fx:id="CBmaxPrecentID" layoutX="10.0" layoutY="82.0" mnemonicParsing="false" onAction="#CBmaxPrecentListener" prefHeight="19.0" prefWidth="243.0" text="Maximum investment precent">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </CheckBox>
+                     </children>
+                  </VBox>
+                  <TextField fx:id="amountTextID" layoutX="314.0" layoutY="339.0" prefHeight="25.0" prefWidth="176.0" />
+                  <Button fx:id="saveButton" layoutX="323.0" layoutY="434.0" mnemonicParsing="false" onAction="#saveFilterListener" prefHeight="37.0" prefWidth="169.0" text="Save and continue" />
+                  <VBox id="component" layoutX="293.0" layoutY="111.0" prefHeight="174.0" prefWidth="197.0" spacing="15.0" styleClass="component">
+                     <children>
+                        <CheckComboBox fx:id="ComboBoxCategories" disable="true" prefHeight="25.0" prefWidth="198.0" />
+                        <TextField fx:id="TextInterest" disable="true" prefHeight="25.0" prefWidth="195.0" />
+                        <TextField fx:id="TextYaz" disable="true" />
+                        <TextField fx:id="TextMaxLoans" disable="true" layoutX="10.0" layoutY="80.0" />
+                        <TextField fx:id="TextMaxPrecent" disable="true" layoutX="10.0" layoutY="115.0" />
+                     </children>
+                  </VBox>
+                  <Label layoutX="14.0" layoutY="58.0" prefHeight="38.0" prefWidth="383.0" text="Please select the options you want to filter the loans:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>

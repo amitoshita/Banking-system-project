@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="okhttp-4.9.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/web_banking_Web_exploded/WEB-INF/lib/okhttp-4.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

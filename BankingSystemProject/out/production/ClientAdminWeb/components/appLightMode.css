@@ -1,0 +1,148 @@
+.component{
+    -fx-background-color: WHITE;
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;
+}
+#login{
+    -fx-font-size: 40px;
+    -fx-text-fill: #295a70;
+}
+
+#header{
+    -fx-font-size: 20px;
+    -fx-text-fill: #38B6FF;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: bold;
+}
+
+.scroll-bar:horizontal .thumb{
+    -fx-background-color: #38B6FF;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #38B6FF;
+}
+
+#hboxYaz{
+    -fx-border-color: #38B6FF;
+    -fx-border-radius: 20px;
+}
+
+.logo {
+    -fx-image : url(/Images/1.png);
+}
+
+.moneyPic{
+    -fx-image : url(/Images/pay1.png);
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #75c7f6;
+    -fx-background-image: url(/Images/1508065.jpg);
+}
+
+.tab-pane{
+    -fx-border-color: white;
+    -fx-background-color: white;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: Black;
+    -fx-font-family: "Maiandra GD";
+}
+
+
+.check-box{
+    -fx-font-size: 16px;
+    -fx-text-fill: #38B6FF;
+}
+
+
+.colum-header-background{
+    -fx-padding: 0 0 10 0;
+}
+
+.table-view{
+    -fx-border-radius: 20;
+    -fx-color: #75c7f6;
+    -fx-font-family: "Maiandra GD";
+    -fx-font-size: 14px;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #d8f2fc;
+
+}
+
+.table-row-cell:even{
+    -fx-background-color: #ffffff;
+
+}
+
+
+
+#loadedFileLabel{
+    -fx-font-size: 10px;
+    -fx-font-family: "Maiandra GD";
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.combobox {
+    -fx-font-size: 12px;
+    -fx-font-family: "Segoe UI Black";
+    -fx-border-radius: 20px;
+    -fx-border-color: #38B6FF;
+    -fx-text-fill: #38B6FF;
+    -fx-font-weight: normal;
+    -fx-font-size: 16px;
+    -fx-background-color: #f9f9f9;
+}
+
+
+
+.button {
+    -fx-border-radius: 20px;
+    -fx-border-color: #38B6FF;
+    -fx-padding: 6px;
+    -fx-text-fill: #38B6FF;
+    -fx-font-family: "Segoe UI Black";
+    -fx-font-weight: normal;
+    -fx-font-size: 16px;
+    -fx-background-color: #f9f9f9;
+
+
+}
+
+
+.button:hover{
+    -fx-border-radius: 20px;
+    -fx-padding: 6px;
+    -fx-font-family: "Segoe UI Black";
+    -fx-border-color: #38B6FF;
+    -fx-text-fill: white;
+    -fx-background-color: #38B6FF;
+}
+
+.scroll-pane {
+    -fx-background-insets: 1;
+    -fx-padding: 0;
+
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+
+.rewind{
+    -fx-text-fill: #38B6FF;
+    -fx-font-weight: bold;
+}

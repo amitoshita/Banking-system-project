@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kotlin-stdlib-1.4.101">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/web_banking_Web_exploded/WEB-INF/lib/kotlin-stdlib-1.4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

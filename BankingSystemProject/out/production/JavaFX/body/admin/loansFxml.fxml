@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="900.0" stylesheets="@../../app/appLightMode.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="body.admin.loansInfoController">
+   <children>
+      <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="220.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="96.33334350585938" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="126.66665649414062" minHeight="10.0" prefHeight="62.666656494140625" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="70.33334350585938" minHeight="10.0" prefHeight="70.33334350585938" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TableView fx:id="table" GridPane.columnSpan="5" GridPane.rowIndex="1" GridPane.rowSpan="3">
+              <columns>
+                <TableColumn fx:id="IdLoan" prefWidth="69.0" text="loan ID" />
+                <TableColumn fx:id="loanOwner" prefWidth="112.0" text="Loan owner" />
+                  <TableColumn fx:id="category" minWidth="2.0" prefWidth="89.0" text="Category" />
+                  <TableColumn fx:id="loanAmount" minWidth="0.0" prefWidth="85.0" text="Amount" />
+                  <TableColumn fx:id="totalYazTime" minWidth="0.0" prefWidth="90.0" text="Total yaz" />
+                  <TableColumn fx:id="paysEveryYaz" minWidth="0.0" prefWidth="55.0" text="Pay every yaz" />
+                  <TableColumn fx:id="interest" minWidth="0.0" prefWidth="83.0" text="Interest" />
+                  <TableColumn fx:id="loanStatus" minWidth="0.0" prefWidth="64.0" text="Status" />
+                  <TableColumn fx:id="totalFund" minWidth="0.0" prefWidth="79.0" text="Money raised" />
+                  <TableColumn fx:id="startActiveYaz" prefWidth="63.0" text="Begining yaz" />
+                  <TableColumn fx:id="endingYaz" prefWidth="110.0" text="Ending yaz" />
+              </columns>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TableView>
+            <Label prefHeight="27.0" prefWidth="200.0" text="Loans info:" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

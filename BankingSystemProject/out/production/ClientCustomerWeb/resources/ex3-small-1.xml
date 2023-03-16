@@ -1,0 +1,14 @@
+<abs-descriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ABS-V2.xsd">
+	<abs-categories>
+		<abs-category>Investment</abs-category>
+	</abs-categories>
+	<abs-loans>
+		<abs-loan id="stock market introduction">
+			<abs-category>Investment</abs-category>
+			<abs-capital>2400</abs-capital>
+			<abs-total-yaz-time>12</abs-total-yaz-time>
+			<abs-pays-every-yaz>1</abs-pays-every-yaz>
+			<abs-intrist-per-payment>5</abs-intrist-per-payment>
+		</abs-loan>
+	</abs-loans>
+</abs-descriptor>

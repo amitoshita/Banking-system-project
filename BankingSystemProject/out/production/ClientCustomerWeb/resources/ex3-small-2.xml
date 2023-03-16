@@ -1,0 +1,22 @@
+<abs-descriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ABS-V2.xsd">
+	<abs-categories>
+		<abs-category>Setup a business</abs-category>
+		<abs-category>Happy Event</abs-category>
+	</abs-categories>
+	<abs-loans>
+		<abs-loan id="Damn the banks">
+			<abs-category>Setup a business</abs-category>
+			<abs-capital>42000</abs-capital>
+			<abs-total-yaz-time>21</abs-total-yaz-time>
+			<abs-pays-every-yaz>7</abs-pays-every-yaz>
+			<abs-intrist-per-payment>20</abs-intrist-per-payment>
+		</abs-loan>
+		<abs-loan id="Bar Mitzva !">
+			<abs-category>Happy Event</abs-category>
+			<abs-capital>2500</abs-capital>
+			<abs-total-yaz-time>25</abs-total-yaz-time>
+			<abs-pays-every-yaz>5</abs-pays-every-yaz>
+			<abs-intrist-per-payment>15</abs-intrist-per-payment>
+		</abs-loan>			
+	</abs-loans>
+</abs-descriptor>

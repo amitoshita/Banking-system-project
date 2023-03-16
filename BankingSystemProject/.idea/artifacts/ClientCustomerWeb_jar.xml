@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact name="ClientCustomerWeb:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClientCustomerWeb_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ClientCustomerWeb.jar">
+        <element id="module-output" name="ClientCustomerWeb" />
+        <element id="module-output" name="engine" />
+        <element id="module-output" name="DTOS" />
+        <element id="module-output" name="ClientAdminWeb" />
+      </element>
+      <element id="library" level="project" name="controlsfx-8.40.14" />
+      <element id="library" level="project" name="gson-2.8.8-javadoc" />
+      <element id="library" level="project" name="gson-2.8.8-sources" />
+      <element id="library" level="project" name="gson-2.8.8" />
+      <element id="library" level="project" name="okio-2.8.01" />
+      <element id="library" level="project" name="annotations-13.01" />
+      <element id="library" level="project" name="kotlin-stdlib-1.4.101" />
+      <element id="library" level="project" name="okhttp-4.9.11" />
+    </root>
+  </artifact>
+</component>

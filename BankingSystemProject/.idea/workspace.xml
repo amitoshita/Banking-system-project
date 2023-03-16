@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web-banking:Web" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a581c4df-2988-4e53-9664-099c7e823d65" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/body/BodyController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/body/bodyFxml.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/body/customer/customerTabFxml.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/engine/src/general/GeneralYazTime.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/body/customer/CustomerTabController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/header/headerFxml.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/header/HeaderController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientCustomerWeb/src/main/mainCustomer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/engine/src/general/Transport.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/body/admin/CustomerFxml.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web-banking/src/servlets/LoginServlet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web-banking/web/amit.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web-banking/src/utils/ServletsUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web-banking/web/WEB-INF/web.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/app/AppController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/app/mainFX.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web-banking/src/servlets/ServletListener.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaFX/src/app/appFxml.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientCustomerWeb/src/components/login/LoginCustomerController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/engine/src/general/Descriptor.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="26hVrnO2AB6VUTezRE0Ol5y4bex" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/web_banking_Web_exploded/WEB-INF/lib/okio-2.8.0.jar" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15098242" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientAdminWeb\src" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientAdminWeb\src\components" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientCustomerWeb\src" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientCustomerWeb\src\components" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientCustomerWeb\src\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientCustomerWeb\src\components\login" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientSharedData\src\components" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientSharedData\src" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientCustomerWeb\src\resources" />
+      <recent name="C:\Users\amitl\IdeaProjects\BankingSystemProject\ClientCustomerWeb\src\components\app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="components.body" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.22">
+    <configuration name="UImain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.UImain" />
+      <module name="UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainAdmin" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.mainAdmin" />
+      <module name="ClientAdminWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainCustomer" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.mainCustomer" />
+      <module name="ClientCustomerWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainFX" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.mainFX" />
+      <module name="JavaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.0.22" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.22" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web-banking:Web">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web-banking_Web" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="471d359d-e242-4700-9c73-31948665dd0c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55216" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web-banking:Web" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.mainFX" />
+      <item itemvalue="Application.UImain" />
+      <item itemvalue="Application.mainCustomer" />
+      <item itemvalue="Application.mainAdmin" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.22" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a581c4df-2988-4e53-9664-099c7e823d65" name="Changes" comment="" />
+      <created>1647876012513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647876012513</updated>
+      <workItem from="1647876016554" duration="81000" />
+      <workItem from="1647876112241" duration="1192000" />
+      <workItem from="1647877557231" duration="7218000" />
+      <workItem from="1647896082514" duration="11773000" />
+      <workItem from="1648019796164" duration="3937000" />
+      <workItem from="1648033828101" duration="7878000" />
+      <workItem from="1648070060990" duration="5410000" />
+      <workItem from="1648109556213" duration="14012000" />
+      <workItem from="1648158961728" duration="10475000" />
+      <workItem from="1648301407166" duration="12459000" />
+      <workItem from="1648316530891" duration="447000" />
+      <workItem from="1648481140167" duration="11068000" />
+      <workItem from="1648566460255" duration="923000" />
+      <workItem from="1648567707380" duration="7000" />
+      <workItem from="1648567759518" duration="58367000" />
+      <workItem from="1649020002805" duration="3627000" />
+      <workItem from="1649070964867" duration="3338000" />
+      <workItem from="1649081049653" duration="18749000" />
+      <workItem from="1649152473142" duration="4522000" />
+      <workItem from="1649157275493" duration="1719000" />
+      <workItem from="1649175311735" duration="19979000" />
+      <workItem from="1649341625026" duration="103000" />
+      <workItem from="1649341744110" duration="8159000" />
+      <workItem from="1649405173496" duration="17543000" />
+      <workItem from="1649486873958" duration="21395000" />
+      <workItem from="1651591685281" duration="22494000" />
+      <workItem from="1651843028813" duration="12469000" />
+      <workItem from="1652091268730" duration="11663000" />
+      <workItem from="1652184949696" duration="1811000" />
+      <workItem from="1652189021452" duration="3291000" />
+      <workItem from="1652287213298" duration="3325000" />
+      <workItem from="1652525309072" duration="4271000" />
+      <workItem from="1652688529723" duration="33958000" />
+      <workItem from="1652958990554" duration="436000" />
+      <workItem from="1652959443715" duration="1536000" />
+      <workItem from="1653119944933" duration="8680000" />
+      <workItem from="1653130409995" duration="17830000" />
+      <workItem from="1653396495688" duration="20311000" />
+      <workItem from="1653548971703" duration="7601000" />
+      <workItem from="1653639627430" duration="31811000" />
+      <workItem from="1653819811793" duration="11117000" />
+      <workItem from="1653851188052" duration="6098000" />
+      <workItem from="1653913033017" duration="11861000" />
+      <workItem from="1654001394562" duration="19624000" />
+      <workItem from="1654065540151" duration="3396000" />
+      <workItem from="1654070166399" duration="5189000" />
+      <workItem from="1654094173386" duration="14071000" />
+      <workItem from="1654210493076" duration="36000" />
+      <workItem from="1654242540081" duration="46000" />
+      <workItem from="1654243707829" duration="224000" />
+      <workItem from="1654249509118" duration="288000" />
+      <workItem from="1654322774791" duration="703000" />
+      <workItem from="1654327772251" duration="5000" />
+      <workItem from="1655306425763" duration="4171000" />
+      <workItem from="1655368806865" duration="594000" />
+      <workItem from="1655659865623" duration="1773000" />
+      <workItem from="1655739200624" duration="6530000" />
+      <workItem from="1655812613488" duration="7540000" />
+      <workItem from="1655899880978" duration="20484000" />
+      <workItem from="1656084737417" duration="2148000" />
+      <workItem from="1656087461615" duration="345000" />
+      <workItem from="1656087816756" duration="1008000" />
+      <workItem from="1656102803790" duration="2431000" />
+      <workItem from="1656105264632" duration="29365000" />
+      <workItem from="1656317340987" duration="18896000" />
+      <workItem from="1656404928056" duration="694000" />
+      <workItem from="1656405649381" duration="11192000" />
+      <workItem from="1656423217792" duration="508000" />
+      <workItem from="1656428514206" duration="17606000" />
+      <workItem from="1656594837454" duration="6604000" />
+      <workItem from="1656753247714" duration="3368000" />
+      <workItem from="1656756658005" duration="12773000" />
+      <workItem from="1656850306450" duration="1269000" />
+      <workItem from="1656851613628" duration="4759000" />
+      <workItem from="1656857811421" duration="1581000" />
+      <workItem from="1656946324997" duration="12679000" />
+      <workItem from="1657012975845" duration="5901000" />
+      <workItem from="1657107105103" duration="4539000" />
+      <workItem from="1657182497901" duration="17042000" />
+      <workItem from="1657368157095" duration="1646000" />
+      <workItem from="1657440519799" duration="19957000" />
+      <workItem from="1657612976417" duration="7966000" />
+      <workItem from="1657630304093" duration="21012000" />
+      <workItem from="1657710963905" duration="12764000" />
+      <workItem from="1657778598975" duration="11518000" />
+      <workItem from="1657803452353" duration="2233000" />
+      <workItem from="1657812719521" duration="1203000" />
+      <workItem from="1657813977558" duration="1892000" />
+      <workItem from="1660033021219" duration="869000" />
+      <workItem from="1660046622273" duration="1504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="javax.xml.bind.JAXBException" package="javax.xml.bind" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="15" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="21" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="87" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="99" />
+        </breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/loans/Loan.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ClientCustomerWeb/src/components/body/createLoanControllerClientCustomer.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/web-banking/src/servlets/CreateNewLoanServlet.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/web-banking/src/servlets/CreateNewLoanServlet.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/web-banking/src/servlets/ConveyMoneyToCustomersServlet.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/general/Transport.java</url>
+          <line>459</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ClientAdminWeb/src/components/header/headerControllerAdmin.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ClientCustomerWeb/src/components/header/headerControllerClientCustomer.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ClientAdminWeb/src/components/header/headerControllerAdmin.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/ClientAdminWeb/src/components/header/headerControllerAdmin.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/general/Descriptor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/general/Descriptor.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/general/Transport.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/engine/src/general/Transport.java</url>
+          <line>666</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/engine/src/general/Descriptor.java</url>
+          <line>28</line>
+          <properties class="general.Descriptor" method="saveCurrStateLoans">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.ResponseFacade" memberName="response" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="request" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BankingSystemProject$mainFX.ic" NAME="mainFX Coverage Results" MODIFIED="1653140812591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>app.*</FILTER>
+    </SUITE>
+  </component>
+</project>

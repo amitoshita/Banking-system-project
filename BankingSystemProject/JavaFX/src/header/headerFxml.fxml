@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.ToggleSwitch?>
+
+<ScrollPane fx:id="headerScrollPane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefViewportHeight="200.0" prefViewportWidth="1100.0" prefWidth="1100.0" stylesheets="@../app/appLightMode.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="header.HeaderController">
+   <content>
+      <GridPane alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="1100.0" styleClass="component">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.0" minWidth="10.0" prefWidth="229.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="749.0" minWidth="10.0" prefWidth="686.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.0" minWidth="10.0" prefWidth="153.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.0" minWidth="10.0" prefWidth="38.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="68.0" minHeight="0.0" prefHeight="36.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="68.0" minHeight="0.0" prefHeight="36.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="68.0" minHeight="0.0" prefHeight="32.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="68.0" minHeight="0.0" prefHeight="32.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="34.666656494140625" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="loadedFileLabel" fx:id="loadedFileLabel" alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="613.0" styleClass="loadedFileLabel" text="Currently loaded file" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.rowSpan="2">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="43.0" prefWidth="134.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <ImageView fx:id="Logo" fitHeight="120.0" fitWidth="270.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" styleClass="logo" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.rowSpan="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets right="220.0" />
+               </GridPane.margin>
+            </ImageView>
+            <HBox prefHeight="43.0" prefWidth="236.0" />
+            <AnchorPane id="hboxYaz" prefHeight="70.0" prefWidth="190.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.rowSpan="2">
+               <children>
+                  <Label id="yazLabel" fx:id="currentYazLabel" alignment="CENTER_RIGHT" contentDisplay="BOTTOM" layoutX="22.0" layoutY="-9.0" prefHeight="47.0" prefWidth="96.0" text="Current yaz">
+                     <padding>
+                        <Insets top="16.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="currYazTimeLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="20.0" prefHeight="36.0" prefWidth="102.0" text="1" textAlignment="RIGHT">
+                     <padding>
+                        <Insets top="16.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" GridPane.rowSpan="2">
+               <children>
+                  <ComboBox id="viewByCB" fx:id="viewByCB" cache="true" depthTest="ENABLE" layoutX="2.0" layoutY="22.0" onAction="#switchScreen" prefHeight="37.0" prefWidth="223.0" promptText="View by... (Admin)" styleClass="combobox">
+            </ComboBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="68.0" prefWidth="214.0" GridPane.rowIndex="1">
+               <children>
+                  <ToggleSwitch id="toggleSwitch" fx:id="modeSwitch" disable="true" layoutX="113.0" layoutY="5.0" prefHeight="27.0" prefWidth="37.0" />
+                  <Label layoutX="6.0" layoutY="1.0" prefHeight="27.0" prefWidth="127.0" text="change mood:" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </content>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</ScrollPane>
